@@ -15,4 +15,5 @@
 
 Task 1: Study and list what all to be included in token(request) : Finetuning of Request and Processing of Response
 Task 2: Azure PDF service : Read and Process the text extracted
-Task 3: CLI Tool usage and integration with Azure
+Task 3: CLI Tool usage
+Task 4: Integration with Azure

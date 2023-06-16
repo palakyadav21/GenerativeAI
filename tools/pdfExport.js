@@ -12,7 +12,7 @@ const extractText = async (pathStr) => {
   const data = await pdf(dataBuffer)
 //   console.log(data.text)
 //   return data.text
-    fs.writeFileSync('./barca2.txt', data.text, (err) => {
+    fs.writeFileSync('./files/context.txt', data.text, (err) => {
         if(err) {
             throw err;
         }

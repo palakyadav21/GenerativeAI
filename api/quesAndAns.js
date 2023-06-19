@@ -19,4 +19,4 @@ const quesAnsAPI = async () => {
 };
 
 
-quesAnsAPI()
+module.exports = {quesAnsAPI}

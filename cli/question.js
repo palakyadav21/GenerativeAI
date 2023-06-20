@@ -1,5 +1,5 @@
 const { Command } = require("commander");
-// const { quesAnsAPI } = require("../api/quesAndAns");
+const { quesAnsAPI } = require("../api/quesAndAns");
 const program = new Command();
 
 program
@@ -8,8 +8,7 @@ program
 
   .action(async (ques) => {
     try {
-        
-    //   quesAnsAPI(ques)      
+      quesAnsAPI(ques)      
       console.log(`Question Accepted`);
 
     } catch (err) {

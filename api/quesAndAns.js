@@ -2,21 +2,17 @@ const { Configuration, OpenAIApi } = require("openai");
 const { dataProcess } = require('../tools/DataProcess')
 
 const configuration = new Configuration({
-    apiKey: OPENAI_API_KEY,
+    apiKey: OPEN_API,
 });
 const openai = new OpenAIApi(configuration);
 
-const quesAnsAPI = async () => {
-
-    const json = await dataProcess()
+const quesAnsAPI = async (ques) => {
+    const json = await dataProcess(ques)
 
     const response = await openai.createCompletion(json);
+    const unprocessedResponse = response.data.choices[0].text;
 
-    const parsableJSONresponse = response.data.choices[0].text;
-	// const parsedResponse = JSON.parse(parsableJSONresponse);
-
-    console.log(parsableJSONresponse);
+    console.log(unprocessedResponse);
 };
-
 
 module.exports = {quesAnsAPI}

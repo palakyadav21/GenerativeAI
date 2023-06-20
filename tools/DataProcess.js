@@ -1,23 +1,16 @@
 const fs = require('fs')
-const file = require('../files/context.txt')
 
-const dataProcess = async () => {
+const dataProcess = async (question) => {
   try {
-
-    // actualFilePath = __dirname + "\\" + filePath
-
-    // console.log(__dirname + "\\" + filePath)
-
-    const data = fs.readFileSync(file);
-    const question = "What happened in 1990 in Barcelona?"
+    const data = fs.readFileSync(__dirname + "\\..\\files\\context.txt");
   
-    let prompt = question
+    let prompt = "In context of" + data + ", Answer: " + question
   
     let json = {
       model: "text-davinci-003",
       prompt: prompt,
       temperature: 0.5,
-      max_tokens: 4000,
+      max_tokens: 2000,
       frequency_penalty: 0.0,
       presence_penalty: 0.0,
     }

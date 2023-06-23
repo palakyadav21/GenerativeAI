@@ -1,8 +1,10 @@
 const fs = require('fs')
+const {extractText} = require('./pdfExport')
 
 const dataProcess = async (question) => {
   try {
-    const data = fs.readFileSync(__dirname + "\\..\\files\\context.txt");
+    const temp = await extractText(__dirname + "\\..\\files\\context.pdf")
+    const data = await fs.readFileSync(__dirname + "\\..\\files\\context.txt");
   
     let prompt = "In context of" + data + ", Answer: " + question
   

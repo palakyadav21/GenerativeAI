@@ -2,7 +2,7 @@
 
 At a high level, generative AI refers to a category of AI models and tools designed to create new content, such as text, images, videos, music, or code. Generative AI uses a variety of techniques—including neural networks and deep learning algorithms—to identify patterns and generate new outcomes based on them. Organizations and people (including software developers and engineers) are increasingly looking to generative AI tools to create content, code, images, and more.
 
-#What is generative AI used for?
+##What is generative AI used for?
 
 Traditional AI systems are trained on large amounts of data to identify patterns, and they’re capable of performing specific tasks that can help people and organizations. But generative AI goes one step further by using complex systems and models to generate new, or novel, outputs in the form of an image, text, or audio based on natural language prompts.
 

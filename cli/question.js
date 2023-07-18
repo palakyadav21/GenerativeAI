@@ -9,9 +9,9 @@ program
   .alias('q')
   .action(async (ques) => {
     try {
-      const question =  translate(ques)
+      const question = await translate(ques)
       console.log("Your question is: " + question)
-      quesAnsAPI(ques)      
+      quesAnsAPI(question)      
       console.log(`Question Accepted\nAnswer:`);
 
     } catch (err) {

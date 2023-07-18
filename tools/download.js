@@ -1,8 +1,9 @@
 //https://blobbydeol.blob.core.windows.net/kmicro/sidvats05/context.pdf
 const fs = require('fs')
 const https = require('https')
+require('dotenv').config();
 
-const username = 'sidvats05';
+const username = process.env.USERNAME;
 
 // File URL
 const url = `https://blobbydeol.blob.core.windows.net/kmicro/${username}/context.pdf`

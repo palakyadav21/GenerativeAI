@@ -106,6 +106,43 @@ After you have completed the prerequisites, now you need to do the following ste
 
 # Screenshots
 
+Q:
+
+![question 1](./images/q1.png)
+
+A:
+
+![answer 1](./images/a1.png)
+
+
+Q:
+
+![question 2](./images/q2.png)
+
+A:
+
+![answer 2](./images/a2.png)
+
+
+Q:
+
+![question 3](./images/q3.png)
+
+A:
+
+![answer 3](./images/a3.png)
+
+
+Q:
+
+![question 4](./images/q4.png)
+
+A:
+
+![answer 4](./images/a4.png)
+
+
+
 
 # Contributors
 

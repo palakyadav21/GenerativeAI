@@ -1,5 +1,6 @@
 ## Table of Content
 
+-[Introduction](#introduction)
 - [About the Project](#about-the-project)
     - [Motivation](#motivation)
     - [Use Case](#use-case)
@@ -9,6 +10,10 @@
     - [Installation](#installation)
 - [Screenshots](#screenshots)
 - [Contributors](#contributors)
+
+# Introduction
+
+The Generative AI Case Study Analysis Tool is a groundbreaking project that aims to automate the process of analyzing case studies stored in PDF format. It employs the OpenAI API to understand the textual content of these case studies and generate coherent and informative responses to user queries. By utilizing cutting-edge generative AI technology, this tool enhances the efficiency and effectiveness of information extraction from case studies.
 
 # About the Project 
 

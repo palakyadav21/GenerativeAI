@@ -2,6 +2,7 @@
 
 - [Introduction](#introduction)
 - [About the Project](#about-the-project)
+    - [Features](#features)
     - [Motivation](#motivation)
     - [Use Case](#use-case)
     - [Built With](#built-with)
@@ -17,7 +18,15 @@ The Generative AI Case Study Analysis Tool is a groundbreaking project that aims
 
 # About the Project 
 
-This backend project makes it easy for users to find answers in a PDF without having to read the whole file themselves. When users upload a PDF, the system uses special tools and services to save the file, convert it to a text file, which is then copied into a string as context along with the question inputted by the user. The CLI integration helps the user input a query which is then translated into English if written in Hinglish (Hindi words written in the English Script). The prompt is sent to the OpenAI API along with some predefined parameters. The response is then processed and displayed to the user in the Terminal. At the end, the PDF and text files are also deleted after a specific period of time.
+This backend project makes it easy for users to find answers in a PDF without having to read the whole file themselves. When users upload a PDF, the system uses special tools and services to save the file, and convert it to a text file, which is then copied into a string as context along with the question inputted by the user. The CLI integration helps the user input a query which is then translated into English if written in Hinglish (Hindi words written in the English Script). The prompt is sent to the OpenAI API along with some predefined parameters. The response is then processed and displayed to the user in the Terminal. At the end, the PDF and text files are also deleted after a specific period of time.
+
+## Features
+
+- PDF Upload: Users can easily upload PDF files containing case studies through the intuitive web interface.
+- Query Generation: Users can input queries related to the uploaded case studies.
+- AI-Powered Analysis: The tool utilizes the OpenAI API to comprehend case study content and generate detailed responses to user queries.
+- User-Friendly Interface: The web-based interface is designed for ease of use and accessibility.
+- Real-time Results: Users receive answers in real-time, streamlining the decision-making process.
 
 
 ## Motivation

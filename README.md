@@ -1,6 +1,6 @@
 ## Table of Content
 
--[Introduction](#introduction)
+- [Introduction](#introduction)
 - [About the Project](#about-the-project)
     - [Motivation](#motivation)
     - [Use Case](#use-case)
